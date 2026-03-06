@@ -2,6 +2,24 @@ int rojo = 13, amarillo = 12, verde = 11, azul = 10;
 int rojo2 = 9, amarillo2 = 8, verde2 = 7, azul2 = 6;
 int rojo3 = 5, amarillo3 = 4, verde3 = 3, azul3 = 2
 
+void setup ()
+{
+  pinMode (rojo, OUTPUT);
+  pinMode (amarillo, OUTPUT);
+  pinMode (verde, OUTPUT);
+  pinMode (azul, OUTPUT);
+
+  pinMode (rojo2, OUTPUT);
+  pinMode (amarillo2, OUTPUT);
+  pinMode (verde2, OUTPUT);
+  pinMode (azul2, OUTPUT);
+
+  pinMode (rojo3, OUTPUT);
+  pinMode (amarillo3, OUTPUT);
+  pinMode (verde3, OUTPUT);
+  pinMode (azul3, OUTPUT);
+}
+  
 void loop() {
   // --- SEMÁFORO 1 ACTIVO ---
   digitalWrite(rojo, LOW);    

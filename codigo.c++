@@ -19,4 +19,21 @@ void loop() {
   digitalWrite(azul, HIGH);    
   delay(2500);
   digitalWrite(azul, LOW);
+
+  // --- SEMÁFORO 2 ACTIVO ---
+  digitalWrite(rojo2, LOW);  
+  digitalWrite(verde2, HIGH);
+  delay(3000);
+
+  digitalWrite(verde2, LOW);
+  digitalWrite(amarillo2, HIGH);
+  delay(1500);
+
+  digitalWrite(amarillo2, LOW);
+  digitalWrite(rojo2, HIGH);   
+  digitalWrite(azul2, HIGH);   
+  delay(2500);
+  digitalWrite(azul2, LOW);
 }
+
+

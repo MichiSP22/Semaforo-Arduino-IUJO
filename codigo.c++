@@ -52,10 +52,9 @@ void loop() {
   digitalWrite(azul2, HIGH);   
   delay(2500);
   digitalWrite(azul2, LOW);
-}
 
-//---SEMAFORO 3 ACTIVO---
-digitalWrite(rojo3, LOW);  
+  //---SEMAFORO 3 ACTIVO---
+  digitalWrite(rojo3, LOW);  
   digitalWrite(verde3, HIGH);
   delay(3000);
 
